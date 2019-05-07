@@ -37,7 +37,6 @@ button:focus {outline:0;}
   animation: fadeIn 2.5s forwards;
 }
 
-
 #myVideo {
   position: fixed;
   right: 0;
@@ -46,6 +45,11 @@ button:focus {outline:0;}
   min-height: 100%;
   z-index: -1;
 }
+
+.content{
+  display: absolute;
+}
+
 
 .brtext{
   position: relative;
@@ -381,6 +385,16 @@ pre{
     margin-right: 0%
 }
 
+
+@media screen and (max-width: 1050px) {
+  .content {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  video {
+    display: none;
+}
 
 
 
