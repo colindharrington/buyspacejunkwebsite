@@ -1,0 +1,368 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-size: cover;
+  background-color: black;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+button:focus {outline:0;}
+
+
+/*.container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+}
+ 
+.container::-webkit-scrollbar-thumb {
+  background-color: 0 0 0;
+  outline: 1px solid slategrey;
+}*/
+
+
+.fadeInAnimated {
+  opacity: 0;
+  animation: fadeIn 2.5s forwards;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
+.brtext{
+  position: fixed;
+  width: 83px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 11%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: default;
+  border-radius: 5px;
+  font-family: silom;
+}
+
+#myBtn {
+  position: fixed;
+  width: 30px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: default;
+  margin-left: 7%;
+  margin-top: 15%;
+  border-radius: 5px;
+  font-family: silom;
+}
+#myBtn2 {
+  position: fixed;
+  width: 45px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 21%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 5px;
+  font-family: silom;
+}
+
+#myBtn3 {
+  position: fixed;
+  width: 45px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 18%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 5px;
+  font-family: silom;
+}
+
+#myBtn4 {
+  position: fixed;
+  width: 45px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 15%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 5px;
+  font-family: silom;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+#myBtn2:hover {
+  background: #ddd;
+  color: black;
+  cursor: default;
+}
+
+#myBtn3:hover {
+  background: #ddd;
+  color: black;
+  cursor: default;
+}
+#myBtn4:hover {
+  background: #ddd;
+  color: black;
+  cursor: default;
+}
+
+
+.spacejunktext{
+  margin-left: 3%;
+  margin-top: 3vmin;
+  position: relative;
+  width: 30vmin;
+  animation: stomp .9s infinite;
+}
+
+
+
+
+img{
+  display: inline;
+}
+
+@keyframes stomp{
+  50%{transform: translate(0,.5vmin);}
+  100%{transform: initial;} 
+}
+
+
+/*--------------*/
+
+.explore{
+  width: 13%;
+  /*animation: stomp .9s infinite;*/
+  margin-left: 3.7%;
+  right: 90%;
+}
+
+.explore:hover{
+  transform: scale(1.3);
+  transition: all 0.5s ease;
+}
+
+.teevee{
+  width:12%;
+  /*animation: stomp .9s infinite;*/
+  margin-top: 1%;
+  margin-left: 4%;
+}
+
+.teevee:hover{
+  transform: scale(1.3);
+  transition: all 0.5s ease;
+}
+
+.about{
+  width: 10%;
+  /*animation: stomp .9s infinite;*/
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.about:hover{
+  transform: scale(1.3);
+  transition: all 0.5s ease;
+}
+
+.insta{
+  width: 17%;
+  margin-left: 7vmin;
+  margin-top: 1vmin;
+}
+
+.insta:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease;
+}
+
+/*--------------*/
+
+
+.clothes{
+  width: 100%;
+  color: white;
+  filter: drop-shadow(0 0 0.7rem black);
+  margin-top: 0%;
+  /*margin-left: 8%;*/
+  border-radius: 5px;
+}
+
+.clothes:hover{
+/*  transform: scale(1.2);
+  transition: all 0.5s ease;*/
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+
+  /*-----------------*/
+
+.container{
+  position: fixed;
+  padding: 0vmin;
+  left: 43%;
+  top: 3%;
+  width: 55%;
+  height: 93vmin;
+  color: red;
+  background-color: rgba(0,0,0,.6);
+  z-index: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border:5px solid black;
+  border-radius: 15px;
+}
+
+  .wrapper {
+  display: grid;
+  padding: 2vmin;
+  justify-content: space-between;
+  grid-template-columns: 100%;
+  grid-column-gap: -1vmin;
+ grid-row-gap: 3vmin;
+  color: #444;
+  opacity: 1;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
+}
+
+
+.price{
+  visibility: hidden;
+  margin-left: 15%
+  color: white;
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  font-family: silom;
+  font-size: 15px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+
+/*.box:hover .price{
+  visibility: visible;
+  margin-top: 5vmin;
+}*/
+
+.clothingdetails{
+  position: fixed;
+  width: 27%;
+  height:36.5vmin;
+  padding: 1vmin;
+  background-color: #3fbfc1;
+  margin-left: 25vmin;
+  margin-top: 3%;
+  border-radius: 5px;
+  color: blue;
+  text-align: center;
+  font-family: silom;
+  animation: stomp .9s infinite;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  cursor: default;
+}
+h3{
+  font-family: silom;
+  text-align: center;
+  /*position: fixed;*/
+  font-size: 15px;
+  cursor: default;
+/*  margin-left: 3vmin;
+  margin-right: 3vmin;*/
+}
+
+
+pre{
+  font-family: silom;
+}
+
+.infoscroll{
+  text-align: center;
+  position: fixed;
+  width: 12vmin;
+  height: 12vmin;
+  color: blue;
+  background-color: #3fbfc1;
+  margin-left: 63.5vmin;
+  margin-right: 3vmin;
+  margin-top: -8vmin;
+  border-radius: 5px;
+  animation: stomp .9s infinite;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    grid-template-columns: 50%;
+    /*margin-left: -20vmin;*/
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .container {
+/*    padding: 5vmin;*/
+    width:50vmin;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+/*    padding: 5vmin;*/
+    /*width: 45vmin;*/
+
+}
+
+@media screen and (max-width: 900px) {
+  .clothes {
+/*    padding: 5vmin;*/
+    width: 55vmin;
+  }
+}
+
+
