@@ -1,7 +1,3 @@
-$(document.body).on('touchmove', onScroll); // for mobile
-$(window).on('scroll', onScroll); 
-
-
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 // video.playbackRate = .8;
@@ -43,6 +39,16 @@ function myFunction() {
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-22vmin";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+window.ontouchmove = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
