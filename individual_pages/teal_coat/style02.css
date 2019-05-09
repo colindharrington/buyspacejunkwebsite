@@ -111,13 +111,16 @@ button:focus {outline:0;}
 /*--------------*/
 
 .textwrapper{
-  /*display: inline;*/
   position: fixed;
   display: inline;
   margin-top: 15%;
   margin-left: 4%;
   margin-right: 0%
 }
+
+
+
+
 
 .explore{
   display: inline;
@@ -224,4 +227,9 @@ p{
 }
 
 
+#navbar {
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+}
 
