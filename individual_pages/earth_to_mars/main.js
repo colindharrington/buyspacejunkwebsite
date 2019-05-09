@@ -15,7 +15,7 @@ function myFunction() {
  $(function changevid1(){
     $('#myBtn2').click(function() {
       var src = "assets/spacewalk.mp4";
-       $("#myVideo").attr("src", "assets/this.mp4");;
+       $("#myVideo").attr("src", "../../assets/this.mp4");;
     });
 
 });
@@ -23,7 +23,7 @@ function myFunction() {
 
   $(function changevid1(){
     $('#myBtn4').click(function() {
-       $("#myVideo").attr("src", "assets/spacewalk.mp4");;
+       $("#myVideo").attr("src", "../../assets/spacewalk.mp4");;
     });
 
 });
@@ -31,7 +31,7 @@ function myFunction() {
 
   $(function changevid1(){
     $('#myBtn3').click(function() {
-       $("#myVideo").attr("src", "assets/timelapse.mp4");;
+       $("#myVideo").attr("src", "../../assets/timelapse.mp4");;
     });
 
 });
