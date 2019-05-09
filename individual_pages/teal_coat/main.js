@@ -1,3 +1,7 @@
+$(document.body).on('touchmove', onScroll); // for mobile
+$(window).on('scroll', onScroll); 
+
+
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 // video.playbackRate = .8;
@@ -47,3 +51,5 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+
