@@ -215,8 +215,12 @@ h1{
 }
 
 p{
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: -2%;
   font-family: silom;
   text-align: center;
+  font-size: 68%;
 }
 
 
