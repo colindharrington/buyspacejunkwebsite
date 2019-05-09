@@ -1,6 +1,3 @@
-/** {
-  box-sizing: border-box;
-}*/
 
 body {
   margin: 0;
@@ -22,19 +19,23 @@ button:active {
 button:focus {outline:0;}
 
 
-/*.container::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
-}
- 
-.container::-webkit-scrollbar-thumb {
-  background-color: 0 0 0;
-  outline: 1px solid slategrey;
-}*/
-
-
 .fadeInAnimated {
   opacity: 0;
   animation: fadeIn 2.5s forwards;
+}
+
+
+.mobileback{
+  position: fixed;
+	visibility: hidden;
+	margin-top: -22%;
+	z-index: -1;
+	overflow: hidden;
+  width: 100%;
+}
+
+.mobilebackimg{
+	width: 100%;
 }
 
 
@@ -47,14 +48,19 @@ button:focus {outline:0;}
   z-index: -1;
 }
 
+.content{
+  display: absolute;
+}
+
+
 .brtext{
-  position: fixed;
+  position: relative;
   width: 83px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 11%;
+  margin-top: 27%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   cursor: default;
@@ -63,27 +69,27 @@ button:focus {outline:0;}
 }
 
 #myBtn {
-  position: fixed;
+  position: absolute;
   width: 30px;
   font-size: 18px;
-  padding: 10px;
+  /*padding: 10px;*/
   border: none;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   cursor: default;
-  margin-left: 7%;
-  margin-top: 15%;
+  margin-left: 6.5%;
+  margin-top: 2vmin;
   border-radius: 5px;
   font-family: silom;
 }
 #myBtn2 {
-  position: fixed;
+  position: absolute;
   width: 45px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 21%;
+  margin-top: 7%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 5px;
@@ -91,13 +97,13 @@ button:focus {outline:0;}
 }
 
 #myBtn3 {
-  position: fixed;
+  position: absolute;
   width: 45px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 18%;
+  margin-top: 4%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 5px;
@@ -105,13 +111,13 @@ button:focus {outline:0;}
 }
 
 #myBtn4 {
-  position: fixed;
+  position: absolute;
   width: 45px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 15%;
+  margin-top: 1%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 5px;
@@ -140,21 +146,33 @@ button:focus {outline:0;}
   cursor: default;
 }
 
+.container{
+  position: absolute;
+  display: inline-block;
+  padding: 4vmin;
+  left: 35.5%;
+  margin-top: -7%;
+  width: 57%;
+  height: 84vmin;
+  color: red;
+  background-color: rgba(255,255,255,.5);
+  z-index: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border:5px solid black;
+  border-radius: 15px;
+}
+
 
 .spacejunktext{
-  margin-left: 3%;
-  margin-top: 3vmin;
+  margin-left: 1%;
   position: relative;
-  width: 30vmin;
+  width: 20vmin;
   animation: stomp .9s infinite;
 }
 
 
 
-
-img{
-  display: inline;
-}
 
 @keyframes stomp{
   50%{transform: translate(0,.5vmin);}
@@ -164,11 +182,17 @@ img{
 
 /*--------------*/
 
+.textwrapper{
+  /*display: inline;*/
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 84%
+}
+
 .explore{
-  width: 13%;
-  /*animation: stomp .9s infinite;*/
-  margin-left: 3.7%;
-  right: 90%;
+  display: block;
+  width: 100%;
 }
 
 .explore:hover{
@@ -177,10 +201,8 @@ img{
 }
 
 .teevee{
-  width:12%;
-  /*animation: stomp .9s infinite;*/
-  margin-top: 1%;
-  margin-left: 4%;
+  display: block;
+  width: 100%;
 }
 
 .teevee:hover{
@@ -189,10 +211,8 @@ img{
 }
 
 .about{
-  width: 10%;
-  /*animation: stomp .9s infinite;*/
-  margin-top: 2%;
-  margin-left: 4%;
+  display: block;
+  width: 100%;
 }
 
 .about:hover{
@@ -201,9 +221,8 @@ img{
 }
 
 .insta{
-  width: 17%;
-  margin-left: 7vmin;
-  margin-top: 1vmin;
+  display: block;
+  width: 100%;
 }
 
 .insta:hover {
@@ -216,16 +235,13 @@ img{
 
 .clothes{
   width: 100%;
-  color: white;
-  filter: drop-shadow(0 0 0.7rem black);
-  margin-top: 0%;
-  /*margin-left: 8%;*/
-  border-radius: 5px;
+  /*filter: drop-shadow(0 0 0.7rem black);*/
+  margin-top: 2%;
 }
 
 .clothes:hover{
-/*  transform: scale(1.2);
-  transition: all 0.5s ease;*/
+  transform: scale(1.4);
+  transition: all 0.5s ease;
   z-index: 1;
   cursor: pointer;
 }
@@ -234,29 +250,14 @@ img{
 
   /*-----------------*/
 
-.container{
-  position: fixed;
-  padding: 0vmin;
-  left: 43%;
-  top: 3%;
-  width: 55%;
-  height: 93vmin;
-  color: red;
-  background-color: rgba(0,0,0,.6);
-  z-index: 1;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  border:5px solid black;
-  border-radius: 15px;
-}
 
   .wrapper {
   display: grid;
-  padding: 2vmin;
-  justify-content: space-between;
-  grid-template-columns: 100%;
-  grid-column-gap: -1vmin;
- grid-row-gap: 3vmin;
+  justify-content: center;
+  padding: 1vmin;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
   color: #444;
   opacity: 1;
 }
@@ -267,6 +268,19 @@ img{
   font-size: 150%;
 }
 
+
+a:link .price {
+  color: white;
+}
+a:visited .price {
+  color: white;
+}
+a:hover .price {
+  color: white;
+}
+a:active .price {
+  color: white;
+}
 
 .price{
   visibility: hidden;
@@ -281,88 +295,145 @@ img{
   filter: drop-shadow(0 0 0.2rem black);
 }
 
-/*.box:hover .price{
+.box:hover .price{
   visibility: visible;
   margin-top: 5vmin;
-}*/
-
-.clothingdetails{
-  position: fixed;
-  width: 27%;
-  height:36.5vmin;
-  padding: 1vmin;
-  background-color: #3fbfc1;
-  margin-left: 25vmin;
-  margin-top: 3%;
-  border-radius: 5px;
-  color: blue;
-  text-align: center;
-  font-family: silom;
-  animation: stomp .9s infinite;
-  align-items: center;
 }
-
-h1{
-  text-align: center;
-  font-size: 30px;
-  cursor: default;
-}
-h3{
-  font-family: silom;
-  text-align: center;
-  /*position: fixed;*/
-  font-size: 15px;
-  cursor: default;
-/*  margin-left: 3vmin;
-  margin-right: 3vmin;*/
-}
-
 
 pre{
   font-family: silom;
 }
 
-.infoscroll{
-  text-align: center;
-  position: fixed;
-  width: 12vmin;
-  height: 12vmin;
-  color: blue;
-  background-color: #3fbfc1;
-  margin-left: 63.5vmin;
-  margin-right: 3vmin;
-  margin-top: -8vmin;
-  border-radius: 5px;
-  animation: stomp .9s infinite;
-}
-
-
-
+/*
 @media screen and (max-width: 650px) {
   .wrapper {
-    grid-template-columns: 50%;
-    /*margin-left: -20vmin;*/
+    grid-template-columns: 90%;
+    margin-left: -10vmin;
   }
+}
+*/
+@media screen and (max-width: 1050px) {
+  .container {
+    width:80%;
+    height: 65%;
+    left: 5%;
+    right: 90%;
+    margin-top: 10%;
 }
 
 @media screen and (max-width: 1050px) {
-  .container {
-/*    padding: 5vmin;*/
-    width:50vmin;
+  .brtext {
+  	margin-left: 40%;
+    margin-top: -14vmin;
 }
 
+@media screen and (max-width: 1050px) {
+  #myBtn {
+  	margin-left: 64%;
+    margin-top: -7vmin;
+}
+@media screen and (max-width: 1050px) {
+  #myBtn2 {
+  	margin-left: 40%;
+    margin-top: 9vmin;
+}
+
+@media screen and (max-width: 1050px) {
+  #myBtn3 {
+  	margin-left: 50%;
+    margin-top: 1vmin;
+}
+
+@media screen and (max-width: 1050px) {
+  #myBtn4 {
+  	margin-left: 40%;
+    margin-top: 1vmin;
+}
+
+@media screen and (max-width: 1050px) {
+  .wrapper {
+  	grid-template-columns: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+  .explore {
+    display: inline;
+    width: 20%;
+}
+
+@media screen and (max-width: 1050px) {
+  .teevee {
+    display: inline;
+    width: 20%;
+}
+
+@media screen and (max-width: 1050px) {
+  .about {
+    display: inline;
+    width: 20%;
+}
+
+@media screen and (max-width: 1050px) {
+  .insta {
+    display: inline;
+    width: 20%;
+}
+
+@media screen and (max-width: 1050px) {
+  .textwrapper {
+    display: inline;
+    margin-right: 0%
+}
+
+
+@media screen and (max-width: 1050px) {
+  .content {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  video {
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .mobileback {
+    visibility: visible;
+}
+
+@media screen and (max-width: 1050px) {
+  .clothes {
+  width: 100%;
+  margin-top: 2%;
+  transform: scale(1.4);
+}
+
+@media screen and (max-width: 1050px) {
+  .clothes:hover{
+  /*transform: scale(1.4);*/
+  z-index: 1;
+}
+
+@media screen and (max-width: 1050px) {
+  link{
+}
+
+
+/*
 @media screen and (max-width: 650px) {
   .container {
-/*    padding: 5vmin;*/
-    /*width: 45vmin;*/
+    padding: 5vmin;
+    display: inline;
+    width: 45vmin;
 
 }
 
 @media screen and (max-width: 900px) {
   .clothes {
-/*    padding: 5vmin;*/
+    padding: 5vmin;
     width: 55vmin;
   }
-}
+}*/
 
 

@@ -1,0 +1,223 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-size: cover;
+  background-color: black;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+button:focus {outline:0;}
+
+
+.fadeInAnimated {
+  opacity: 0;
+  animation: fadeIn 2.5s forwards;
+}
+
+
+.mobileback{
+  position: fixed;
+	visibility: hidden;
+	margin-top: -22%;
+	z-index: -1;
+	overflow: hidden;
+  width: 100%;
+}
+
+.mobilebackimg{
+	width: 100%;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content{
+  display: absolute;
+}
+
+
+.brtext{
+  position: relative;
+  width: 83px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 27%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: default;
+  border-radius: 5px;
+  font-family: silom;
+}
+
+.container{
+  position: absolute;
+  margin-top: 25%;
+  z-index: -1;
+}
+
+
+.description{
+  position: fixed;
+  bottom: 2%;
+  margin-left: 10%;
+  height: 38vmin;
+  width: 78%;
+  background-color: #33cccc;
+  border-radius: 5vmin;
+}
+
+.buynow{
+  display: block;
+  margin:auto;
+  /*margin-left: 33%;*/
+  width: 50%;
+}
+
+.spacejunktext{
+  margin-left: 1%;
+  position: fixed;
+  width: 20vmin;
+  animation: stomp .9s infinite;
+}
+
+
+
+
+@keyframes stomp{
+  50%{transform: translate(0,.5vmin);}
+  100%{transform: initial;} 
+}
+
+
+/*--------------*/
+
+.textwrapper{
+  /*display: inline;*/
+  position: fixed;
+  display: inline;
+  margin-top: 15%;
+  margin-left: 4%;
+  margin-right: 0%
+}
+
+.explore{
+  display: inline;
+  width: 20%;
+}
+
+.teevee{
+  display: inline;
+  width: 20%;
+}
+
+.about{
+  display: inline;
+  width: 20%;
+}
+
+.insta{
+  display: inline;
+  width: 20%;
+}
+
+
+/*--------------*/
+
+
+.clothes{
+  padding: 4%;
+  width: 90%;
+  margin-top: 2%;
+}
+
+
+
+
+  /*-----------------*/
+
+
+  .wrapper {
+  display: grid;
+  justify-content: center;
+  padding: 1vmin;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+  color: #444;
+  opacity: 1;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
+}
+
+
+a:link .price {
+  color: white;
+}
+a:visited .price {
+  color: white;
+}
+a:hover .price {
+  color: white;
+}
+a:active .price {
+  color: white;
+}
+
+.price{
+  visibility: hidden;
+  margin-left: 15%
+  color: white;
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  font-family: silom;
+  font-size: 15px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+
+.box:hover .price{
+  visibility: visible;
+  margin-top: 5vmin;
+}
+
+pre{
+  font-family: silom;
+}
+
+h1{
+  font-family: silom;
+  text-align: center;
+  font-size: 140%;
+}
+
+p{
+  font-family: silom;
+  text-align: center;
+}
+
+
+
