@@ -140,6 +140,9 @@ body {
   z-index: 1;
 }
 
+.box:hover .price{
+  visibility: hidden;
+}
 
 pre{
   font-family: silom;
