@@ -31,29 +31,15 @@ body {
 }
 
 
-.brtext{
-  position: relative;
-  width: 83px;
-  font-size: 11px;
-  padding: 10px;
-  border: none;
-  margin-left: 2%;
-  margin-top: 27%;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  cursor: default;
-  border-radius: 5px;
-  font-family: silom;
-}
-
 
 .container{
     position: absolute;
     width:80%;
-    height: 65%;
+    height: 100%;
     left: 5%;
     right: 90%;
-    margin-top: 20%;
+    top: 10%;
+    margin-top: 0%;
     overflow: visible;
     background-color: rgba(255,255,255,0);
     border:none;
@@ -84,7 +70,7 @@ body {
   position: fixed;
   margin-top: 15%;
   margin-left: 4%;
-  margin-right: 84%;
+  width: 15%;
   z-index: 1;
 }
 
@@ -160,16 +146,10 @@ a:active .price {
 }
 
 .price{
-  visibility: hidden;
-  margin-left: 15%
-  color: white;
-  width: 400px;
-  text-align: center;
+  opacity: 0;
+  width: 0px;
   position: absolute;
   z-index: 1;
-  font-family: silom;
-  font-size: 15px;
-  filter: drop-shadow(0 0 0.2rem black);
 }
 
 
@@ -177,14 +157,6 @@ pre{
   font-family: silom;
 }
 
-/*
-@media screen and (max-width: 650px) {
-  .wrapper {
-    grid-template-columns: 90%;
-    margin-left: -10vmin;
-  }
-}
-*/
 
 
 @media screen and (max-width: 1050px) {
