@@ -90,14 +90,15 @@ button:focus {outline:0;}
   left: 48%;
   margin-left: -20%;
   bottom: 15%;
-  padding: 1vmin;
+  /*padding: 1vmin;*/
   width: 36%;
+  height: 10%;
   background-color: #33cccc;
   border-radius: 2vmin;
 }
 
 .formstyle{
-  position: block;
+  margin-top: 7.5%;
 	text-align: center;
 }
 
