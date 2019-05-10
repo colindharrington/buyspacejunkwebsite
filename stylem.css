@@ -132,19 +132,6 @@ body {
 }
 
 
-a:link .price {
-  color: white;
-}
-a:visited .price {
-  color: white;
-}
-a:hover .price {
-  color: white;
-}
-a:active .price {
-  color: white;
-}
-
 .price{
   opacity: 0;
   width: 0px;
