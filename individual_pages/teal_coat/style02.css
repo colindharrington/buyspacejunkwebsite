@@ -77,7 +77,7 @@ button:focus {outline:0;}
 
 .description{
   position: fixed;
-  bottom: 15%;
+  bottom: 26%;
   margin-left: 10%;
   height: 18%;
   width: 78%;
@@ -89,7 +89,7 @@ button:focus {outline:0;}
   position: fixed;
   left: 48%;
   margin-left: -20%;
-  bottom: 4%;
+  bottom: 15%;
   padding: 1vmin;
   width: 36%;
   background-color: #33cccc;
