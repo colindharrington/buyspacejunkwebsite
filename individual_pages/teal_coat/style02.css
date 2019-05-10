@@ -77,20 +77,27 @@ button:focus {outline:0;}
 
 .description{
   position: fixed;
-  bottom: 2%;
+  bottom: 15%;
   margin-left: 10%;
-  height: 38vmin;
+  height: 18%;
   width: 78%;
   background-color: #33cccc;
-  border-radius: 5vmin;
+  border-radius: 2vmin;
 }
 
 .buynow{
-  display: block;
-  margin:auto;
-  margin-top: 0vmin;
-  /*margin-left: 33%;*/
-  width: 50%;
+  position: fixed;
+  left: 48%;
+  margin-left: -20%;
+  bottom: 4%;
+  padding: 1vmin;
+  width: 36%;
+  background-color: #33cccc;
+  border-radius: 2vmin;
+}
+
+.formstyle{
+	text-align: center;
 }
 
 .spacejunktext{
@@ -190,7 +197,7 @@ a:active .price {
   color: white;
 }
 
-.price{
+/*.price{
   visibility: hidden;
   margin-left: 15%
   color: white;
@@ -201,12 +208,12 @@ a:active .price {
   font-family: silom;
   font-size: 15px;
   filter: drop-shadow(0 0 0.2rem black);
-}
+}*/
 
-.box:hover .price{
+/*.box:hover .price{
   visibility: visible;
   margin-top: 5vmin;
-}
+}*/
 
 pre{
   font-family: silom;
@@ -219,7 +226,7 @@ h1{
 }
 
 p{
-  margin-left: 4%;
+  margin-left: 3.5%;
   margin-right: 4%;
   margin-top: -2%;
   font-family: silom;
