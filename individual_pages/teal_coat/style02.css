@@ -97,6 +97,7 @@ button:focus {outline:0;}
 }
 
 .formstyle{
+  position: block;
 	text-align: center;
 }
 
