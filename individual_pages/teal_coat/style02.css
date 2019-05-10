@@ -88,6 +88,7 @@ button:focus {outline:0;}
 .buynow{
   display: block;
   margin:auto;
+  margin-top: 0vmin;
   /*margin-left: 33%;*/
   width: 50%;
 }
@@ -223,7 +224,7 @@ p{
   margin-top: -2%;
   font-family: silom;
   text-align: center;
-  font-size: 68%;
+  font-size: 59%;
 }
 
 
