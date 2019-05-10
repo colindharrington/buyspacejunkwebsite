@@ -1,0 +1,208 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-size: cover;
+  background-color: black;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.fadeInAnimated {
+  opacity: 0;
+  animation: fadeIn 2.5s forwards;
+}
+
+
+.mobileback{
+  position: fixed;
+	margin-top: -22%;
+	z-index: -1;
+	overflow: hidden;
+  width: 100%;
+}
+
+.mobilebackimg{
+	width: 100%;
+}
+
+
+.brtext{
+  position: relative;
+  width: 83px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 27%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: default;
+  border-radius: 5px;
+  font-family: silom;
+}
+
+
+.container{
+    position: absolute;
+    width:80%;
+    height: 65%;
+    left: 5%;
+    right: 90%;
+    margin-top: 20%;
+    overflow: visible;
+    background-color: rgba(255,255,255,0);
+    border:none;
+    z-index: 0;
+}
+
+
+.spacejunktext{
+  position: fixed;
+  margin-left: 1%;
+  width: 20vmin;
+  animation: stomp .9s infinite;
+  z-index: 1;
+}
+
+
+
+
+@keyframes stomp{
+  50%{transform: translate(0,.5vmin);}
+  100%{transform: initial;} 
+}
+
+
+/*--------------*/
+
+.textwrapper{
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 4%;
+  margin-right: 84%;
+  z-index: 1;
+}
+
+.explore{
+  display: inline;
+  width: 115%;
+}
+
+
+.teevee{
+  display: inline;
+  width: 100%;
+}
+
+
+.about{
+  display: inline;
+  width: 90%;
+}
+
+
+.insta{
+  display: inline;
+  width: 140%;
+}
+
+
+/*--------------*/
+
+
+.clothes{
+  padding: 0vmin;
+  padding-bottom: 13vmin;
+  width: 100%;
+  margin-top: 10%;
+  transform: scale(1.4);
+}
+
+
+
+  /*-----------------*/
+
+
+  .wrapper {
+  display: grid;
+  justify-content: center;
+  padding: 1vmin;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+  color: #444;
+  opacity: 1;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
+}
+
+
+a:link .price {
+  color: white;
+}
+a:visited .price {
+  color: white;
+}
+a:hover .price {
+  color: white;
+}
+a:active .price {
+  color: white;
+}
+
+.price{
+  visibility: hidden;
+  margin-left: 15%
+  color: white;
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  font-family: silom;
+  font-size: 15px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+
+
+pre{
+  font-family: silom;
+}
+
+/*
+@media screen and (max-width: 650px) {
+  .wrapper {
+    grid-template-columns: 90%;
+    margin-left: -10vmin;
+  }
+}
+*/
+
+
+@media screen and (max-width: 1050px) {
+  .brtext {
+  	margin-left: 40%;
+    margin-top: -14vmin;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .wrapper {
+  	grid-template-columns: 90%;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .content {
+    display: none;
+}
+
+
