@@ -37,25 +37,10 @@ function myFunction() {
 });
 
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-22vmin";
-  }
-  prevScrollpos = currentScrollPos;
-}
+var $ = jQuery;
 
-window.ontouchmove = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-22vmin";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
+$(function() {
+  $('#auctions').click(function() {
+    $('.submenu').slideToggle();
+  });
+});

@@ -304,14 +304,13 @@ pre{
   font-family: silom;
 }
 
-/*
-@media screen and (max-width: 650px) {
-  .wrapper {
-    grid-template-columns: 90%;
-    margin-left: -10vmin;
-  }
+
+#menu{
+  position: fixed;
+  visibility: hidden;
 }
-*/
+
+
 @media screen and (max-width: 1050px) {
   .container {
     width:80%;
