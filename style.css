@@ -54,13 +54,13 @@ button:focus {outline:0;}
 
 
 .brtext{
-  position: relative;
+  position: fixed;
   width: 83px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 27%;
+  bottom:18%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   cursor: default;
@@ -69,7 +69,7 @@ button:focus {outline:0;}
 }
 
 #myBtn {
-  position: absolute;
+  position: fixed;
   width: 30px;
   font-size: 18px;
   /*padding: 10px;*/
@@ -78,18 +78,18 @@ button:focus {outline:0;}
   color: #fff;
   cursor: default;
   margin-left: 6.5%;
-  margin-top: 2vmin;
+  bottom:2%;
   border-radius: 5px;
   font-family: silom;
 }
 #myBtn2 {
-  position: absolute;
+  position: fixed;
   width: 45px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 7%;
+  bottom:2%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 5px;
@@ -97,13 +97,13 @@ button:focus {outline:0;}
 }
 
 #myBtn3 {
-  position: absolute;
+  position: fixed;
   width: 45px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 4%;
+  bottom:7%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 5px;
@@ -111,13 +111,13 @@ button:focus {outline:0;}
 }
 
 #myBtn4 {
-  position: absolute;
+  position: fixed;
   width: 45px;
   font-size: 11px;
   padding: 10px;
   border: none;
   margin-left: 2%;
-  margin-top: 1%;
+  bottom:12%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 5px;
@@ -167,7 +167,7 @@ button:focus {outline:0;}
 .spacejunktext{
   margin-left: 1%;
   position: relative;
-  width: 20vmin;
+  width: 10%;
   animation: stomp .9s infinite;
 }
 
@@ -212,7 +212,7 @@ button:focus {outline:0;}
 
 .about{
   display: block;
-  width: 100%;
+  width: 80%;
 }
 
 .about:hover{
@@ -222,7 +222,7 @@ button:focus {outline:0;}
 
 .insta{
   display: block;
-  width: 100%;
+  width: 130%;
 }
 
 .insta:hover {
@@ -303,133 +303,3 @@ a:active .price {
 pre{
   font-family: silom;
 }
-
-/*
-@media screen and (max-width: 650px) {
-  .wrapper {
-    grid-template-columns: 90%;
-    margin-left: -10vmin;
-  }
-}
-*/
-@media screen and (max-width: 1050px) {
-  .container {
-    width:80%;
-    height: 65%;
-    left: 5%;
-    right: 90%;
-    margin-top: 10%;
-}
-
-@media screen and (max-width: 1050px) {
-  .brtext {
-  	margin-left: 40%;
-    margin-top: -14vmin;
-}
-
-@media screen and (max-width: 1050px) {
-  #myBtn {
-  	margin-left: 64%;
-    margin-top: -7vmin;
-}
-@media screen and (max-width: 1050px) {
-  #myBtn2 {
-  	margin-left: 40%;
-    margin-top: 9vmin;
-}
-
-@media screen and (max-width: 1050px) {
-  #myBtn3 {
-  	margin-left: 50%;
-    margin-top: 1vmin;
-}
-
-@media screen and (max-width: 1050px) {
-  #myBtn4 {
-  	margin-left: 40%;
-    margin-top: 1vmin;
-}
-
-@media screen and (max-width: 1050px) {
-  .wrapper {
-  	grid-template-columns: 90%;
-}
-
-@media screen and (max-width: 1050px) {
-  .explore {
-    display: inline;
-    width: 20%;
-}
-
-@media screen and (max-width: 1050px) {
-  .teevee {
-    display: inline;
-    width: 20%;
-}
-
-@media screen and (max-width: 1050px) {
-  .about {
-    display: inline;
-    width: 20%;
-}
-
-@media screen and (max-width: 1050px) {
-  .insta {
-    display: inline;
-    width: 20%;
-}
-
-@media screen and (max-width: 1050px) {
-  .textwrapper {
-    display: inline;
-    margin-right: 0%
-}
-
-
-@media screen and (max-width: 1050px) {
-  .content {
-    display: none;
-}
-
-@media screen and (max-width: 1050px) {
-  video {
-    display: none;
-}
-
-
-@media screen and (max-width: 1050px) {
-  .mobileback {
-    visibility: visible;
-}
-
-@media screen and (max-width: 1050px) {
-  .clothes {
-  width: 100%;
-  margin-top: 2%;
-  transform: scale(1.4);
-}
-
-@media screen and (max-width: 1050px) {
-  .clothes:hover{
-  /*transform: scale(1.4);*/
-  z-index: 1;
-}
-
-
-/*
-@media screen and (max-width: 650px) {
-  .container {
-    padding: 5vmin;
-    display: inline;
-    width: 45vmin;
-
-}
-
-@media screen and (max-width: 900px) {
-  .clothes {
-    padding: 5vmin;
-    width: 55vmin;
-  }
-}*/
-
-

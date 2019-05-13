@@ -8,6 +8,13 @@ body {
   overflow-x: hidden;
 }
 
+
+video{
+  display: none;
+}
+
+
+
 @keyframes fadeIn {
   from {opacity: 0}
   to {opacity: 1}
@@ -119,7 +126,7 @@ body {
   display: grid;
   justify-content: center;
   padding: 1vmin;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 90%;
   grid-column-gap: 5px;
   grid-row-gap: 30px;
   color: #444;
@@ -148,24 +155,10 @@ pre{
   font-family: silom;
 }
 
-
-
-@media screen and (max-width: 1050px) {
-  .brtext {
-  	margin-left: 40%;
-    margin-top: -14vmin;
+.content{
+  display: none;
 }
 
-
-@media screen and (max-width: 1050px) {
-  .wrapper {
-  	grid-template-columns: 90%;
+.mobileback {
+    visibility: visible;
 }
-
-
-@media screen and (max-width: 1050px) {
-  .content {
-    display: none;
-}
-
-

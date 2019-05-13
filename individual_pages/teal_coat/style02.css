@@ -17,6 +17,10 @@ button:active {
 }
 button:focus {outline:0;}
 
+video{
+  visibility: hidden;
+}
+
 
 .fadeInAnimated {
   opacity: 0;
@@ -34,6 +38,7 @@ button:focus {outline:0;}
 
 .mobilebackimg{
   width: 100%;
+  z-index: -1;
 }
 
 
@@ -47,7 +52,7 @@ button:focus {outline:0;}
 }
 
 .content{
-  display: absolute;
+  display: none;
 }
 
 
@@ -68,33 +73,41 @@ button:focus {outline:0;}
 
 .container{
   position: absolute;
-  /*margin-top: 25%;*/
-  z-index: -1;
+  z-index: 1;
+  padding-bottom: 50%;
 }
 
 
 .description{
   position: fixed;
   display: block;
-  bottom: 24%;
+  bottom: 16%;
   margin-left: 10%;
   height: 18%;
   width: 78%;
-  background-color: #33cccc;
+  background-color: rgba(0,0,0,.8);
   border-radius: 2vmin;
+  z-index: 2;
 }
 
 .buynow{
   position: fixed;
   left: 48%;
   margin-left: -30%;
-  bottom: 10%;
-  /*padding: 1vmin;*/
+  bottom: 3%;
   width: 60%;
   height: 12%;
-  background-color: #33cccc;
+  background-color: rgba(0,0,0,.8);
   border-radius: 2vmin;
+  z-index: 2;
 }
+
+.paypalimg{
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
 
 .formstyle{
   margin-top: 7.5%;
@@ -102,9 +115,7 @@ button:focus {outline:0;}
 }
 
 .spacejunktext{
-  /*margin-left: 1%;*/
   position: fixed;
-  width: 10vmin;
   animation: stomp .9s infinite;
 }
 
@@ -128,7 +139,10 @@ button:focus {outline:0;}
 }
 
 
-
+.home{
+  display: inline;
+  width: 20%;
+}
 
 
 .explore{
@@ -148,7 +162,7 @@ button:focus {outline:0;}
 
 .insta{
   display: inline;
-  width: 30%;
+  width: 33%;
 }
 
 
@@ -158,7 +172,8 @@ button:focus {outline:0;}
 .clothes{
   padding: 5%;
   width: 90%;
-  margin-top: 10%;
+  margin-top: 2%;
+  z-index: 0;
 }
 
 
@@ -224,6 +239,7 @@ h1{
   font-family: silom;
   text-align: center;
   font-size: 140%;
+  color: white;
 }
 
 p{
@@ -233,6 +249,7 @@ p{
   font-family: silom;
   text-align: center;
   font-size: 59%;
+  color: white;
 }
 
 
@@ -246,24 +263,25 @@ p{
 
 .rocketimg{
   z-index: 1;
-  width: 18%;
-  margin-top: 2%;
-  margin-left: -3%;
+  width: 100%;
 }
 
 
 .submenu{display:none;
-margin-top: 5vmin;
+margin-top: 3vmin;
 margin-left: 15vmin;
 height:5vmin;
 }
 
 #menu{
   position: fixed;
+  z-index: 2;
+  left: -2%;
 }
 
 
 #auctions{
   position: fixed;
+  width: 14%;
   cursor: pointer;
   margin-left: 2vmin;}
