@@ -81,7 +81,7 @@ video{
 .description{
   position: fixed;
   display: block;
-  bottom: 10%;
+  bottom: 8%;
   margin-left: 10%;
   height: 18%;
   width: 78%;
@@ -94,7 +94,7 @@ video{
   position: fixed;
   left: 48%;
   margin-left: -30%;
-  bottom: 3%;
+  bottom: 1%;
   width: 60%;
   height: 6%;
   background-color: rgba(0,0,0,.8);
@@ -268,8 +268,8 @@ p{
 
 
 .submenu{display:none;
-transform: translateY(-10vmin);
-margin-top: 3vmin;
+transform: translateY(-12vmin);
+/*margin-top: 3vmin;*/
 margin-left: 15vmin;
 height:5vmin;
 }
