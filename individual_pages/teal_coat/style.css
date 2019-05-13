@@ -330,6 +330,7 @@ pre{
 
 
 .submenu{display:none;
+  transform: translateY(-5vmin);
 margin-top: 0vmin;
 margin-left: 15vmin;
 height:7vmin;
