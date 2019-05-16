@@ -83,7 +83,7 @@ video{
   display: block;
   top: 74%;
   margin-left: 10%;
-  height: 18%;
+  height: 18vh;
   width: 78%;
   background-color: rgba(0,0,0,.8);
   border-radius: 2vmin;
@@ -96,7 +96,7 @@ video{
   margin-left: -30%;
   top: 93%;
   width: 60%;
-  height: 6%;
+  height: 6vh;
   background-color: rgba(0,0,0,.8);
   border-radius: 2vmin;
   z-index: 2;
@@ -105,12 +105,13 @@ video{
 .paypalimg{
   margin: auto;
   display: block;
-  width: 30%;
+  /*width: 30%;*/
+  height: 4vh;
 }
 
 
 .formstyle{
-  margin-top: 4%;
+  margin-top: 1vh;
 	text-align: center;
 }
 
@@ -238,7 +239,7 @@ pre{
 h1{
   font-family: silom;
   text-align: center;
-  font-size: 140%;
+  font-size: 4vw;
   color: white;
 }
 
@@ -248,7 +249,7 @@ p{
   margin-top: -2%;
   font-family: silom;
   text-align: center;
-  font-size: 59%;
+  font-size: 1.5vh;
   color: white;
 }
 
