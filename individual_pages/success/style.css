@@ -4,7 +4,7 @@ body {
   font-family: Arial;
   font-size: 17px;
   background-size: cover;
-  background-color: black;
+  background-image: url("../../assets/hubble.jpg");
 }
 
 @keyframes fadeIn {
@@ -47,7 +47,7 @@ button:focus {outline:0;}
   min-width: 100%; 
   min-height: 100%;
   z-index: -1;
-  opacity: .7;
+  opacity: 1;
 }
 
 .content{
