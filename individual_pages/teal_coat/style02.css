@@ -81,9 +81,9 @@ video{
 .description{
   position: fixed;
   display: block;
-  top: 72%;
+  top: 74%;
   margin-left: 10%;
-  height: 18vmax;
+  height: 18%;
   width: 78%;
   background-color: rgba(0,0,0,.8);
   border-radius: 2vmin;
@@ -96,7 +96,7 @@ video{
   margin-left: -30%;
   top: 93%;
   width: 60%;
-  height: 8vmin;
+  height: 4%;
   background-color: rgba(0,0,0,.8);
   border-radius: 2vmin;
   z-index: 2;
@@ -111,7 +111,7 @@ video{
 
 
 .formstyle{
-  margin-top: 1vh;
+  margin-top: 1vmin;
 	text-align: center;
 }
 
