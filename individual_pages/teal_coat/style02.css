@@ -81,7 +81,7 @@ video{
 .description{
   position: fixed;
   display: block;
-  top: 73%;
+  top: 72%;
   margin-left: 10%;
   height: 18vmax;
   width: 78%;
@@ -106,7 +106,7 @@ video{
   margin: auto;
   display: block;
   /*width: 30%;*/
-  height: 6vw;
+  height: 5vw;
 }
 
 
