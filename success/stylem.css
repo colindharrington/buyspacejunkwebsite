@@ -248,7 +248,7 @@ h1{
   position: absolute;
   font-family: silom;
   color: yellow;
-  font-size: 10vw;
+  font-size: 17vw;
   text-shadow: 0 0 2vmin black;
 }
 
@@ -256,10 +256,10 @@ p{
   position: relative;
   display: inline-flex;
   font-family: silom;
-  font-size: 2vw;
+  font-size: 4vw;
   color: yellow;
   text-shadow: 0 0 2vmin black;
-  margin-top: 35vh;
+  margin-top: 37vh;
   margin-left: 5vw;
   margin-right: 27vw;
 }
@@ -268,5 +268,5 @@ p{
 
 .success{
   position: absolute;
-  margin-left: 27vw;
+  margin-left: 10vw;
 }
