@@ -15,6 +15,47 @@
 	width: 30vw;
 }
 
+.rocketimg{
+  z-index: 1;
+  width: 60%;
+}
+
+
+.submenu{
+  display: none;
+  transform: translateY(-4vmin);
+  margin-left: 14%;
+}
+
+#menu{
+  position: fixed;
+  z-index: 2;
+  left: -1%;
+}
+
+
+#auctions{
+  position: fixed;
+  width: 14%;
+  cursor: pointer;
+  margin-left: 2vmin;
+}
+
+.home{
+  display: inline;
+  width: 20%;
+}
+
+.insta{
+  display: inline;
+  width: 33%;
+}
+
+.about{
+  display: inline;
+  width: 20%;
+}
+
 
 @media only screen and (max-width: 1050px) {
   .center {
@@ -23,8 +64,47 @@
   }
 }
 
+@media only screen and (max-width: 1050px) {
+  .rocketimg {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .submenu {
+    transform: translateY(-9vmin);
+  }
+}
+
 </style>
 <body> 
+
+
+  <div id="menu">
+  <div id="auctions">
+    <img class="rocketimg" src="assets/rocket.png">
+  </div>
+  <br><br><br>
+
+  <div class="submenu">
+    <a href="../index.html">
+      <img class="home" src="../assets/text/home.png">
+    </a>
+  </div>
+
+  <div class="submenu">
+    <a href="https://www.instagram.com/buyspacejunk/">
+      <img class="insta" src="../assets/text/insta.png">
+    </a>
+  </div>
+
+  <div class="submenu">
+    <a href="../about/index.html">
+      <img class="about" src="../assets/text/about.png">
+    </a>
+  </div>
+
+</div>
 
 <video class="center" controls>
   <source src="assets/killbill.mp4" type="video/mp4">
@@ -81,6 +161,9 @@
 </video>
 
 <br>
+
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="main.js"></script>
 
 </body> 
 </html>
