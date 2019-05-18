@@ -117,6 +117,10 @@ video{
   transform: scale(1.4);
 }
 
+.clothes:hover{
+  transform: scale(1.4);
+}
+
 
 
   /*-----------------*/

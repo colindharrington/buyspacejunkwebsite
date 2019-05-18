@@ -150,9 +150,9 @@ button:focus {outline:0;}
   position: absolute;
   display: inline-block;
   padding: 4vmin;
-  left: 35.5%;
+  left: 31.5%;
   margin-top: -7%;
-  width: 57%;
+  width: 62%;
   height: 84vmin;
   color: red;
   background-color: rgba(255,255,255,.5);
@@ -196,7 +196,7 @@ button:focus {outline:0;}
 }
 
 .explore:hover{
-  transform: scale(1.3);
+  transform: scale(1.4);
   transition: all 0.5s ease;
 }
 
@@ -234,13 +234,13 @@ button:focus {outline:0;}
 
 
 .clothes{
-  width: 100%;
+  width: 98%;
   /*filter: drop-shadow(0 0 0.7rem black);*/
   margin-top: 2%;
 }
 
 .clothes:hover{
-  transform: scale(1.4);
+  transform: scale(1.2);
   transition: all 0.5s ease;
   z-index: 1;
   cursor: pointer;
