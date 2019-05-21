@@ -28,13 +28,14 @@ video{
 
 .mobileback{
   position: fixed;
-	margin-top: -22%;
+	margin-top: 0%;
 	z-index: -1;
 	overflow: hidden;
   height: 100%;
 }
 
 .mobilebackimg{
+	position: fixed;
 	height: 100%;
   overflow: hidden;
 }
