@@ -4,6 +4,7 @@ body {
   font-family: Arial;
   font-size: 17px;
   background-size: cover;
+  background-color: black;
 }
 
 @keyframes fadeIn {
