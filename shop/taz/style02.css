@@ -284,7 +284,7 @@ p{
 
 #auctions{
   position: fixed;
-  width: 14%;
+  width: 24%;
   cursor: pointer;
-  margin-left: 2vmin;
+  margin-left: -5vmin;
 }
