@@ -288,3 +288,9 @@ p{
   cursor: pointer;
   margin-left: -5vmin;
 }
+
+.soldout{
+  margin-top: 1%;
+  width: 13vh;
+  margin-left: 22vw;
+}
