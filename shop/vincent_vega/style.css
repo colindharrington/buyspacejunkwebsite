@@ -151,9 +151,9 @@ button:focus {outline:0;}
   position: fixed;
   display: inline-block;
   padding: 4vmin;
-  left: 32%;
+  left: 39%;
   margin-top: 2%;
-  width: 60%;
+  width: 50%;
   height: 84%;
   color: red;
   background-color: rgba(255,255,255,.5);
@@ -399,10 +399,4 @@ p{
 .formstyle{
   margin-top: 9%;
   text-align: center;
-}
-
-.soldout{
-  margin-top: 7%;
-  width: 80%;
-  margin-left: 10%;
 }
