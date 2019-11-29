@@ -337,7 +337,7 @@ height:7vmin;
 }
 
 #menu{
-  position: fixed;
+  position: fixedp;
   z-index: 2;
 }
 
