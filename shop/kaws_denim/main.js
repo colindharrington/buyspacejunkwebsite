@@ -1,46 +1,10 @@
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-// video.playbackRate = .8;
+document.getElementById("soundclick").onclick = function() {myFunction()};
 
 function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "P<br>A<br>U<br>S<br>E<br>";
+  var x = document.getElementById("sound");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } else {
-    video.pause();
-    btn.innerHTML = "P<br>L<br>A<br>Y";
+    x.style.display = "block";
   }
 }
-
- $(function changevid1(){
-    $('#myBtn2').click(function() {
-      var src = "assets/spacewalk.mp4";
-       $("#myVideo").attr("src", "../../assets/this.mp4");;
-    });
-
-});
-
-
-  $(function changevid1(){
-    $('#myBtn4').click(function() {
-       $("#myVideo").attr("src", "../../assets/spacewalk.mp4");;
-    });
-
-});
-
-
-  $(function changevid1(){
-    $('#myBtn3').click(function() {
-       $("#myVideo").attr("src", "../../assets/timelapse.mp4");;
-    });
-
-});
-
-
-var $ = jQuery;
-
-$(function() {
-  $('#auctions').click(function() {
-    $('.submenu').slideToggle();
-  });
-});
