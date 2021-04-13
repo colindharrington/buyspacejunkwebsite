@@ -250,6 +250,19 @@ button:focus {outline:0;}
   cursor: pointer;
 }
 
+.clothesx{
+  width: 90%;
+  /*filter: drop-shadow(0 0 0.7rem black);*/
+  margin-top: 2%;
+}
+
+.clothesx:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  z-index: 1;
+  cursor: pointer;
+}
+
 
   /*-----------------*/
 
